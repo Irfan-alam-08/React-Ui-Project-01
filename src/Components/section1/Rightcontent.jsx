@@ -6,7 +6,7 @@ const Rightcontent = (props) => {
     return (
         <div
             id="right-content"
-            className="h-full w-2/3 overflow-hidden rounded-4xl"
+            className="h-full w-2/3 overflow-hidden rounded-4xl [mask-image:linear-gradient(to_right,transparent,black_12%,black_88%,transparent)]"
         >
             <div className="flex w-max h-full p-4 animate-marquee hover:[animation-play-state:paused]">
                 {loop.map((elem, idx) => (
